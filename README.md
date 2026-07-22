@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروعي - خدمات أكاديمية متكاملة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a111e;
+            --card-bg: #111c2e;
+            --accent-gold: #d4af37;
+            --text-color: #ffffff;
+            --text-secondary: #a0aec0;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 40px 20px;
+            background: linear-gradient(180deg, rgba(212,175,55,0.15) 0%, rgba(10,17,30,1) 100%);
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 5px;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .service-card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            transition: 0.3s;
+        }
+        .service-card:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            color: var(--accent-gold);
+            margin-top: 10px;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 40px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+        footer {
+            margin-top: 5px;
+            padding: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مشروعي | MASHRO3I</h1>
+        <p class="tagline">سرعة • إنجاز • جودة • ثقة</p>
+        <p>خدمات أكاديمية متكاملة لجميع التخصصات</p>
+    </header>
+
+    <div class="container">
+        <h2>خدماتنا المميزة</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>تخليل الذكاء الاصطناعي</h3>
+                <p>AI Detection</p>
+            </div>
+            <div class="service-card">
+                <h3>فحص الاقتباس</h3>
+                <p>Turnitin</p>
+            </div>
+            <div class="service-card">
+                <h3>برمجة وأكواد متعددة</h3>
+                <p>حلول برمجية متكاملة</p>
+            </div>
+            <div class="service-card">
+                <h3>MATLAB & Simulink</h3>
+                <p>محاكاة ونمذجة هندسية</p>
+            </div>
+            <div class="service-card">
+                <h3>التحليل الإحصائي</h3>
+                <p>SPSS</p>
+            </div>
+            <div class="service-card">
+                <h3>مشاريع التخرج ورسائل الماجستير</h3>
+                <p>إعداد ومتابعة أكاديمية</p>
+            </div>
+        </div>
+
+        <a href="https://wa.me/218922016435" class="whatsapp-btn" target="_blank">
+            تواصل معنا عبر الواتساب 💬
+        </a>
+    </div>
+
+    <footer>
+        <p>📍 مصراتة - ليبيا | 📞 0922016435</p>
+    </footer>
+
+</body>
+</html>
