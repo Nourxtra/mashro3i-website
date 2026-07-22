@@ -24,6 +24,7 @@
         header {
             padding: 40px 20px;
             background: linear-gradient(180deg, rgba(212,175,55,0.15) 0%, rgba(10,17,30,1) 100%);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
         }
         h1 {
             font-size: 2.8rem;
@@ -34,11 +35,12 @@
             font-size: 1.2rem;
             letter-spacing: 2px;
             margin-bottom: 20px;
+            color: var(--text-color);
         }
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px 20px;
         }
         .services-grid {
             display: grid;
@@ -56,6 +58,7 @@
         .service-card:hover {
             border-color: var(--accent-gold);
             transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.15);
         }
         .service-card h3 {
             color: var(--accent-gold);
@@ -72,10 +75,15 @@
             text-decoration: none;
             margin-top: 40px;
             box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            transition: 0.3s;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+            background-color: #20ba5a;
         }
         footer {
-            margin-top: 5px;
-            padding: 20px;
+            margin-top: 40px;
+            padding: 25px;
             border-top: 1px solid rgba(255,255,255,0.1);
             color: var(--text-secondary);
         }
@@ -90,10 +98,10 @@
     </header>
 
     <div class="container">
-        <h2>خدماتنا المميزة</h2>
+        <h2 style="color: #fff; font-size: 2rem;">خدماتنا المميزة</h2>
         <div class="services-grid">
             <div class="service-card">
-                <h3>تخليل الذكاء الاصطناعي</h3>
+                <h3>تقليل الذكاء الاصطناعي</h3>
                 <p>AI Detection</p>
             </div>
             <div class="service-card">
